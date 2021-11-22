@@ -32,15 +32,27 @@
         }
         .style-list{
             font-family: 'Zen Old Mincho', serif;
-            color: #160c28;                      
+            color: #160c28;
+                                  
         }
         .botão{
             background-color: #022F40;
             border-radius: 20px;
-            padding: 10px 15px;
-            text-align: center;
+            padding: 10px 20px;        
             text-decoration: none;
             color: white;
+            line-height: 45px;
+            font-size: medium;
+            text-align: center;
+            border: 1px solid rgb(95, 3, 3);
+        }
+        .botao-lista{
+            background-color: #022F40;
+            border-radius: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            line-height: 45px;
         }
 
     </style>
@@ -49,11 +61,10 @@
     <h1><strong>Renata Dias de Oliveira</strong></h1>
 
     <h4 class="bk-titulo-list">Índice:</h4>
-    <ul class="style-list">
-        <ul class="">
-        <li><a href="#Sobre">Sobre</a></li>
-        <li><a href="#Hab">Habilidades</a></li>
-        <li><a href="#TempoLivre">Tempo livre</a></li>
+    <ul class="style-list">       
+        <li><a href="#Sobre" class="botao-lista">Sobre</a></li>
+        <li><a href="#Hab" class="botao-lista">Habilidades</a></li>
+        <li><a href="#TempoLivre" class="botao-lista">Tempo livre</a></li>
     </ul>
     <hr>
 
@@ -77,7 +88,7 @@
     </ul>
     <hr>
 
-    <p class="botão"><a href="#./Me.jpeg"> Imagem Renata Dias</a></p>   
-    <p id="TempoLivre" class="botão"><a href="https://www.twitch.tv/" target="_blank">Site que passo meu tempo livre</a></p>
+    <p><a href="#./Me.jpeg" class="botão"> Imagem Renata Dias</a></p>   
+    <p id="TempoLivre"><a href="https://www.twitch.tv/" target="_blank" class="botão">Site que passo meu tempo livre</a></p>
 </body>
 </html>
