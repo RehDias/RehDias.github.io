@@ -3,19 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Outfit:wght@300&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">           
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Mali:ital,wght@1,300&family=Outfit:wght@300&family=Yanone+Kaffeesatz:wght@500&family=Zen+Old+Mincho&display=swap" rel="stylesheet"> 
+    <style>
+        h1{
+            font-family: 'Aleo', serif;
+            text-align: center;
+            font-weight: 600;
+        }
+        p{
+            font-family: 'Zen Old Mincho', serif;
+        }
+        .image {
+            border-radius: 30%;                                   
+        }
+        .bk-titulo-list{
+            background-color: #A31621;
+            padding: 15px 50px;
+            border-radius: 15px 50px 30px;
+            font-weight: 600;
+            color: #14110f;
+        }
+        body{
+            background-color: #7f7f7f;
+            text-decoration: none;
+        }
+        .style-list{
+            font-family: 'Zen Old Mincho', serif;
+            color: #160c28;                      
+        }
+        .botão{
+            background-color: #022F40;
+            border-radius: 20px;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
     <h1><strong>Renata Dias de Oliveira</strong></h1>
 
-    <h4>Índice:</h4>
-    <ul>
+    <h4 class="bk-titulo-list">Índice:</h4>
+    <ul class="style-list">
+        <ul class="">
         <li><a href="#Sobre">Sobre</a></li>
         <li><a href="#Hab">Habilidades</a></li>
         <li><a href="#TempoLivre">Tempo livre</a></li>
     </ul>
     <hr>
 
-    <img id="./Me.jpeg" src="./Me.jpeg" alt="Foto de Renata Dias" width="180px">
+    <img id="./Me.jpeg" src="./Me.jpeg" alt="Foto de Renata Dias" width="180px" class="image">
     <hr>
 
     <p id="Sobre"><em>
@@ -27,15 +69,15 @@
     </em></p>
     <hr>
 
-    <h4 id="Hab">Habilidades:</h4>
+    <h4 id="Hab" class="bk-titulo-list">Habilidades:</h4>
 
-    <ul>
+    <ul class="style-list">
         <li>Paciência</li>
         <li>Empatia</li>
     </ul>
     <hr>
 
-    <p><a href="#./Me.jpeg"> Imagem Renata Dias</a></p>   
-    <p id="TempoLivre"><a href="https://www.twitch.tv/" target="_blank">Site que passo meu tempo livre</a></p>
+    <p class="botão"><a href="#./Me.jpeg"> Imagem Renata Dias</a></p>   
+    <p id="TempoLivre" class="botão"><a href="https://www.twitch.tv/" target="_blank">Site que passo meu tempo livre</a></p>
 </body>
 </html>
